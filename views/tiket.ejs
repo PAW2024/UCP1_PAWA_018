@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserve Ticket</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <h1>Reserve Your Ticket</h1>
+    <form action="/tiket" method="POST">
+        <label for="idP">ID Pelanggan:</label>
+        <input type="text" id="idP" name="idP" required><br><br>
+
+        <label for="idKr">ID Kolam Renang:</label>
+        <input type="text" id="idKr" name="idKr" required><br><br>
+
+        <label for="tanggal">Tanggal Reservasi:</label>
+        <input type="date" id="tanggal" name="tanggal" required><br><br>
+
+        <button type="submit">Reserve</button>
+    </form>
+</body>
+</html>
